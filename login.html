@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <style>
+     body{
+            background-image: url(loginbackground.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .login{
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            width: 600px;
+            height: 600px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgb(0, 0, 0);
+
+
+        }
+
+        h1{
+            color: rgb(39, 190, 105);
+            font-size: 50px;
+            
+
+        }
+
+        label{
+            color: rgb(49, 128, 225);
+            font-size: 30px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        input{
+            border-color: rgb(139, 248, 228);
+            border-radius: 10px;
+            width: 300px;
+            height: 30px;
+         
+            
+        }
+
+        button{
+            background-color: rgb(39, 190, 105);
+            color: white;
+            border: none;
+            width: 200px;
+            height: 50px;
+            border-radius: 10px;
+            margin: 50px;
+            font-weight: bold;
+            font-size: larger;
+            transition: 0.3s;
+        }
+
+        .login img{
+            margin-top: 30px;
+            margin-left: 40px ;
+            width: 350px;
+        }
+
+        button:hover{
+        background-color:rgb(49, 128, 225);
+        transform: translateY(-3px);
+        }
+
+    
+
+        
+     
+        
+
+    </style>
+</head>
+<body>
+    
+    <div class="login">
+        <br>
+        <img src="logo.png" alt="">
+        <br>
+        <br>
+        
+        <h1> Welcome!</h1>
+        <form>
+        <label for="username">username</label>
+        <br>
+        <input type="text"  required >
+        <br>
+        <br>
+        
+        <label for="password" >password</label>
+        <br>
+        <input type="password" required>
+        <br>
+        <button>Log in</button>
+        </form>
+
+    </div>
+
+    
+</body>
+</html>
